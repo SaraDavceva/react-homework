@@ -1,0 +1,42 @@
+body {
+  background-color: rgb(72, 72, 72);
+  margin: 0;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.language-currency,
+.client-action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  color: pink;
+  gap: 5px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.title {
+  display: flex;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgba(255, 65, 97, 0.866);
+}
+
+@media only screen and (max-width: 600px) {
+  .language-currency,
+  .client-action {
+    display: none;
+  }
+
+  .header {
+    justify-content: center;
+  }
+  .title {
+    font-size: 26px;
+    margin: 5px;
+    padding: 10px;
+  }
+}

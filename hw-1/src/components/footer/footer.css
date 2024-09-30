@@ -1,0 +1,16 @@
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  align-content: flex-end;
+  font-size: 22px;
+  color: pink;
+  gap: 5px;
+  padding: 20px;
+  margin: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer {
+    font-size: 18px;
+  }
+}
