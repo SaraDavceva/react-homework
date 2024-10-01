@@ -1,0 +1,30 @@
+.name {
+  font-weight: bold;
+}
+
+.priority {
+  font-style: italic;
+}
+
+ul {
+  padding: 0 5px 0 5px;
+}
+.task-item {
+  margin: 5px;
+  padding: 0 10px 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+}
+.task-item.high {
+  background-color: red;
+}
+
+.task-item.medium {
+  background-color: rgb(255, 97, 97);
+}
+
+.task-item.low {
+  background-color: rgb(255, 158, 158);
+}

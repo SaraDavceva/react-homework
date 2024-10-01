@@ -1,0 +1,15 @@
+html {
+  display: flex;
+  justify-content: center;
+}
+body {
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
+h2 {
+  text-decoration: underline;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
