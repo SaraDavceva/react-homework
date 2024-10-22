@@ -1,0 +1,80 @@
+body {
+  background-color: rgb(213, 213, 213);
+}
+.form-data {
+  width: 500px;
+  height: 300px;
+  text-align: center;
+  background-color: rgb(150, 150, 149);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 4px;
+}
+
+.input-text {
+  display: flex;
+  justify-content: space-around;
+  font-size: 18px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.name,
+.email {
+  border-radius: 3px;
+  border: 1px solid black;
+  width: 150px;
+  height: 20px;
+}
+
+.check-data {
+  font-size: 18px;
+  padding: 5px;
+  margin: 5px;
+  gap: 10px;
+}
+
+.radio-input {
+  accent-color: black;
+}
+
+.checkbox-input {
+  accent-color: black;
+  margin: 5px;
+  gap: 5px;
+}
+
+.dropdown {
+  font-size: 18px;
+  position: relative;
+  right: 80px;
+}
+
+.dropdown select {
+  border: 1px solid black;
+  border-radius: 3px;
+  font-size: 14px;
+  height: 30px;
+  width: 100px;
+  padding: 3px;
+}
+
+button {
+  width: 90px;
+  height: 30px;
+  border-radius: 4px;
+  font-size: 16px;
+  position: relative;
+  left: 180px;
+  top: 40px;
+}
+
+.submitted-data {
+  position: relative;
+  left: 10px;
+  width: 300px;
+  text-align: left;
+  font-size: 18px;
+  padding: 10px;
+  margin: 5px;
+}
