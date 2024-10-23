@@ -1,0 +1,32 @@
+.country-card {
+  background-color: rgb(198, 224, 207);
+  border: 1px solid black;
+  padding: 5px;
+  margin: 5px;
+  width: 210px;
+  height: 300px;
+  border-radius: 3px;
+}
+
+.country-card h2 {
+  margin: 10px;
+  padding: 5px;
+}
+
+.country-card img {
+  width: auto;
+  height: 60px;
+}
+
+.country-card p {
+  font-size: 18px;
+  margin: 10px;
+}
+
+.details-link {
+  font-size: 16px;
+  position: relative;
+  left: -40px;
+  bottom: -40px;
+  color: black;
+}
