@@ -1,10 +1,10 @@
 import "./App.css";
-import FormWithLocalStorage from "./components/formDetails";
+import FormDetails from "./components/formDetails";
 
 function App() {
   return (
     <div>
-      <FormWithLocalStorage />
+      <FormDetails />
     </div>
   );
 }
