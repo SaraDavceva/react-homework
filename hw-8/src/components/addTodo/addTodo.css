@@ -1,0 +1,27 @@
+.add-todo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5px;
+  padding: 5px;
+}
+
+.add-todo-input {
+  font-size: 16px;
+  width: 500px;
+  height: 30px;
+  border-radius: 3px;
+  background-color: rgb(188, 188, 188);
+  margin: 5px;
+  padding: 5px;
+}
+
+.add-todo-button {
+  background-color: rgb(189, 218, 208);
+  font-size: 16px;
+  width: 90px;
+  height: 40px;
+  border-radius: 4px;
+  margin: 5px;
+  padding: 5px;
+}
