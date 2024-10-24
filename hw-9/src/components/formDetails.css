@@ -1,0 +1,82 @@
+body {
+  background-color: rgb(213, 213, 213);
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.form-data {
+  width: 500px;
+  height: 300px;
+  text-align: center;
+  background-color: rgb(150, 150, 149);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 4px;
+}
+
+.input-text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  font-size: 18px;
+  padding: 5px;
+  margin: 5px;
+  gap: 5px;
+}
+
+.username,
+.email,
+.password {
+  border-radius: 3px;
+  border: 1px solid black;
+  width: 150px;
+  height: 20px;
+}
+
+.select-country {
+  border-radius: 3px;
+  border: 1px solid black;
+  font-size: 14px;
+  height: 30px;
+  width: 100px;
+  padding: 3px;
+}
+
+.dropdown {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 300px;
+  font-size: 18px;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.submit-button {
+  background-color: rgb(69, 120, 208);
+  position: relative;
+  left: -130px;
+  top: 110px;
+}
+
+.clear-button {
+  background-color: rgb(187, 97, 97);
+  position: relative;
+  left: 130px;
+  top: 110px;
+}
+
+.submitted-data {
+  position: relative;
+  left: 10px;
+  width: 300px;
+  text-align: left;
+  font-size: 18px;
+  padding: 10px;
+  margin: 5px;
+}
