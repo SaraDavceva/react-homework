@@ -1,0 +1,49 @@
+body {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  background-color: rgb(199, 197, 199);
+}
+
+.game-container {
+  border-radius: 3px;
+  width: 500px;
+  height: 350px;
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+.game-container input {
+  width: 200px;
+  height: 15px;
+  border-radius: 4px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.submit-button {
+  background-color: rgb(130, 137, 130);
+  border-radius: 5px;
+  width: 140px;
+  height: 25px;
+  font-size: 14px;
+}
+
+.game-container p {
+  font-size: 18px;
+}
+
+.game-description {
+  text-decoration: underline;
+}
+
+.new-game-button {
+  background-color: rgb(17, 98, 250);
+  border-radius: 5px;
+  width: 140px;
+  height: 25px;
+  font-size: 14px;
+  position: relative;
+  left: 115px;
+}
